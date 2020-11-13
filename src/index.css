@@ -1,13 +1,94 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App{
+  width: 100%;
+}
+
+.main-header {
+  background-color: #092044;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0 2rem;
+}
+
+.header-links {
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 50%;
+  justify-self: flex-end;
+}
+
+.link-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+}
+
+.link-container a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+#artists {
+  position: relative;
+  background-color: #F9AB21;
+  transition: all 2s ease-in;
+}
+
+#for-artists {
+  background-color: #F9AB21;
+  padding: 6px 27px;
+}
+
+.dropdown-list {
+  position: absolute;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#artists:hover {
+  transition: all 2s ease-in;
+}
+
+.dropdown-list a {
+  background-color: #F9AB21;
+  padding: 6px 27px;
+  margin-bottom: 2px;
+}
+
+.dropdown-list a:hover {
+  background-color: #092044;
+  color: white;
+}
+
+#hide {
+  display: none;
+}
+
+#show {
+  display: flex;
+}
+
+
+/* Search */
+
+.search{
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+.search-input{
+  width: 30%;
+  height: 7vh;
+  border: 2px solid #000000;
+  border-radius: 30px;
 }
