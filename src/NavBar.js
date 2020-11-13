@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from "./images/logo.png";
 class NavBar extends React.Component {
   state = {
     showDropdown: "hide",
@@ -20,8 +20,8 @@ class NavBar extends React.Component {
   render() {
     return (
       <header className="main-header">
-        <div>
-          <img src={""} alt="comic galaxy logo"></img>
+        <div className="logo-container">
+          <img src={logo} alt="comic galaxy logo"></img>
         </div>
         <div className="header-links">
           <ul className="link-container">

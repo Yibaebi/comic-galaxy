@@ -8,6 +8,10 @@ body {
   width: 100%;
 }
 
+.logo-container{
+  background-color: white;
+}
+
 .main-header {
   background-color: #092044;
   height: 10vh;
