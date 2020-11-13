@@ -1,0 +1,28 @@
+.sign-up-main{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sign-up-hero{
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 20px;
+    background: linear-gradient(0deg, #092044, #092044), url('https://drive.google.com/file/d/1VLWq-fsCKXm4PrLu7qflQzLV7e95b9N8/view?usp=sharing');
+    background-blend-mode: multiply, normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 487px;
+}
+.sign-up-hero .content{
+    width: 487px;
+    color: #f4f4f4
+}
