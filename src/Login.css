@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.login-container {
+    display: flex;
+    height: 80vh;
+    max-width: 100%;
+}
+
+.login-item-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background: url('./images/login-a.png');
+}
+
+.login-item-a h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    width: 60%;
+}
+
+.login-item-a p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    width: 60%;
+}
+
+
+.login-item-b {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.login-item-b > h1 {
+    margin: 50px;
+}
+
+.login-item-b label {
+    display: block;
+    margin-top: 30px;
+}
+
+.login-item-b input {
+    width: 400px;
+    height: 40px;
+    background: #E3E3E3;
+    border: 0;
+    border-radius: 7px;
+}
+
+.login-item-b div {
+    display: flex;
+    margin-top: 30px;
+    font-size: 1.0rem;
+}
+
+.login-item-b button {
+    width: 150px;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    background: #F9AB21;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 20px;
+}
