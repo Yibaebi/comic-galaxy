@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <NavBar />
       <form className="search" >
-        <img src={search} alt="search bar"/>
+        <img src={search} alt="search bar" id="search-icon"/>
         <input className="search-input" type="search" placeholder="Search Comics" />
       </form>
     </div>
