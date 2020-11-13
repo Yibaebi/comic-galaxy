@@ -12,7 +12,6 @@ function App() {
         <img src={search} alt="search bar" id="search-icon"/>
         <input className="search-input" type="search" placeholder="Search Comics" />
       </form>
-      <Login />
       <Footer />
     </div>
   );
