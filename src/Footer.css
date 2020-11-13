@@ -1,0 +1,24 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
+.footer-container img {
+    width: 100px;
+    height: 100px;
+}
+
+footer a {
+    display: inline-block;
+    color:#092044;
+
+} 
+
+.footer-item-b {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 100px;
+}
